@@ -16,5 +16,5 @@ const calculaNota = () =>
  /*  let horaCASV = quintaNota */
  /*  let horaCONS = sextaNota */
 
-document.getElementById("resultado").innerHTML = `Bom dia ${primeiraNota}, tudo bem? O seu CASV está agendado para o dia ${segundaNota} e a entrevista no consulado para o dia ${terceiraNota}, em ${quartaNota}. Caso não tenha disponibilidade para esses agendamentos e precise reagendar, me avisa o melhor dia e horário que tentaremos remarcar. Obrigada`
+document.getElementById("resultado").innerHTML = `Bom dia ${primeiraNota}, tudo bem? Aqui é a Nicolly da EC Vistos e o seu CASV está agendado para o dia ${segundaNota} e a entrevista no consulado para o dia ${terceiraNota}, em ${quartaNota}. Caso não tenha disponibilidade para esses agendamentos e precise reagendar, me avisa o melhor dia e horário que tentaremos remarcar. Obrigada`
 }
