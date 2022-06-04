@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>EC VISTOS - AGENDAMENTO</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js"></script>
+
+      <div class="container1">
+        <h2 class="page-title">
+        Texto do agendamento</h2>
+      </div>
+    </head>
+    <body>
+      <div class="container2">
+        <!-- <h2>Informe suas notas</h2> -->
+        <form>
+          <div class="input-field">
+            <input type="text" id="n1" required="">
+            <label>Nome do cliente</label>
+            <span></span>
+          </div>
+          <br/>
+          <div class="input-field">
+            <input type="text" id="n2" required="">
+            <label>Data do CASV</label>
+            <span></span>
+          </div>
+          <!-- <div class="input-field">
+            <input type="text" id="n5" required="">
+            <label>Horário do CASV</label>
+            <span></span>
+          </div> -->
+          <br/>
+          <div class="input-field">
+            <input type="text" id="n3" required="">
+            <label>Data do Consulado</label>
+            <span></span>
+          </div>
+        
+          <!-- <div class="input-field">
+            <input type="text" id="n6" required="">
+            <label>Horário do Consulado</label>
+            <span></span>
+          </div> -->
+          <br/>
+          <div class="input-field">
+            <input type="text" id="n4" required="">
+            <label>Local</label>
+            <span></span>
+            <br/>
+            <br/>
+            </form>
+          <form>
+          <input value="Gerar texto" class = "button1" onclick="calculaNota()" type="button">
+          </form>
+          <p class="texto--padrao">EC VISTOS </p>
+          <p class="texto--padrao" id="resultado"></p>
+          </div>
+          
+         </form>
+
+  <button class="button2" onclick="window.location.reload()">Limpar texto</button>
+  
+    </body>
+    <script src="./script.js"></script>
+  
+  </html>
