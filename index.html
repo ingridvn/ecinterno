@@ -13,46 +13,34 @@
     </head>
     <body>
       <div class="container2">
-        <!-- <h2>Informe suas notas</h2> -->
         <form>
           <div class="input-field">
-            <input type="text" id="n1" required="">
+            <input type="text" id="cliente" required="">
             <label>Nome do cliente</label>
             <span></span>
           </div>
           <br/>
           <div class="input-field">
-            <input type="text" id="n2" required="">
+            <input type="text" id="casv" required="">
             <label>Data do CASV</label>
             <span></span>
           </div>
-          <!-- <div class="input-field">
-            <input type="text" id="n5" required="">
-            <label>Horário do CASV</label>
-            <span></span>
-          </div> -->
           <br/>
           <div class="input-field">
-            <input type="text" id="n3" required="">
+            <input type="text" id="consulado" required="">
             <label>Data do Consulado</label>
             <span></span>
           </div>
-        
-          <!-- <div class="input-field">
-            <input type="text" id="n6" required="">
-            <label>Horário do Consulado</label>
-            <span></span>
-          </div> -->
           <br/>
           <div class="input-field">
-            <input type="text" id="n4" required="">
+            <input type="text" id="place" required="">
             <label>Local</label>
             <span></span>
             <br/>
             <br/>
             </form>
           <form>
-          <input value="Gerar texto" class = "button1" onclick="calculaNota()" type="button">
+          <input value="Gerar texto" class = "button1" onclick="mensagemAgendamento()" type="button">
           </form>
           <p class="texto--padrao">EC VISTOS </p>
           <p class="texto--padrao" id="resultado"></p>
