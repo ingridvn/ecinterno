@@ -13,7 +13,7 @@ const mensagemAgendamento = () =>
 
  if (local === "Rio de Janeiro")
  {
-  document.getElementById("resultado").innerHTML = `${pax}, aqui é a Nicolly da EC Vistos e o seu CASV está agendado para o dia <strong> ${biometria} </strong> e a entrevista no consulado para o dia ${entrevsita}, no ${placeConsulado}. Caso não tenha disponibilidade para esses agendamentos e precise reagendar, me avisa o melhor dia e horário que tentaremos remarcar. Obrigada`
+  document.getElementById("resultado").innerHTML = `${pax}, aqui é a Nicolly da EC Vistos e o seu CASV está agendado para o dia ${biometria} e a entrevista no consulado para o dia ${entrevsita}, no ${placeConsulado}. Caso não tenha disponibilidade para esses agendamentos e precise reagendar, me avisa o melhor dia e horário que tentaremos remarcar. Obrigada`
 
  }
 
